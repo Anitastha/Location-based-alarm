@@ -6,8 +6,8 @@ var mongoose = require('mongoose');
 var session = require('express-session');
 var FileStore = require('session-file-store')(session);
 var passport = require('passport');
- var authenticate = require('./authenticate');
- var auth = require('./verify');
+var authenticate = require('./authenticate');
+// var auth = require('./verify');
 var cors = require('cors');
 
 const url = 'mongodb://localhost:27017/Location';
